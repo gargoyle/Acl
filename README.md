@@ -13,5 +13,5 @@ Roles and resources are just strings. I would recommend using the class names
 of commands & queries for resources and to assign your users roles or groups 
 instead of specifying access on a per-user basis.
 
-Each resource can only be allowed access to a single role. This is to promote
+Each resource can only be allowed access from a single role. This is to promote
 better structuring of roles and groups.
