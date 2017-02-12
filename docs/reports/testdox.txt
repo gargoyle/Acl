@@ -1,0 +1,30 @@
+Pmc\Acl\Acl
+ [x] Role access is denied by default
+ [x] Super role access is denied by default
+ [x] Granted role access is allowed directly
+ [x] Granted role access is allowed via inheritance
+ [x] Non granted role is denied access
+ [x] Super roles are allowed access
+
+Pmc\Acl\Tests\Roles\RoleList
+ [x] Role lists can be empty
+ [x] List can be iterated
+ [x] Can be converted to an array
+
+Pmc\Acl\Tests\Roles\Role
+ [x] Sanitised role names cannot be empty 
+ [x] Sanitised role name cannot be longer than 50 chars
+ [x] Valid names are sanitised 
+
+Pmc\Acl\Tests\Roles\RoleTree
+ [x] New role trees are empty
+ [x] Unique roles are added to the tree
+ [x] Non existing roles cannot be inherited
+ [x] Super roles cannot be inherited
+ [x] Existing roles can be inherited
+ [x] Role names must be unique
+ [x] Super role names must be unique
+ [x] Allocated roles are expanded only to inherited list
+ [x] Super roles expand to all roles
+ [x] All registered roles can be listed
+

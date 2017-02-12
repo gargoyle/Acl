@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1486893035">
+  <project timestamp="1486893035">
+    <package name="Pmc\Acl">
+      <file name="/Users/paul/Code/Projects/PMC_Networks/PMC_Acl/src/Acl.php">
+        <class name="Acl" namespace="Pmc\Acl">
+          <metrics complexity="6" methods="4" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="11" elements="18" coveredelements="13"/>
+        </class>
+        <line num="46" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="48" type="stmt" count="6"/>
+        <line num="49" type="stmt" count="6"/>
+        <line num="50" type="stmt" count="6"/>
+        <line num="52" type="method" name="roleTree" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="60" type="method" name="allow" visibility="public" complexity="2" crap="2.26" count="4"/>
+        <line num="62" type="stmt" count="4"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="4"/>
+        <line num="68" type="stmt" count="4"/>
+        <line num="77" type="method" name="isAllowed" visibility="public" complexity="2" crap="2" count="6"/>
+        <line num="79" type="stmt" count="6"/>
+        <line num="80" type="stmt" count="2"/>
+        <line num="82" type="stmt" count="4"/>
+        <line num="83" type="stmt" count="4"/>
+        <line num="84" type="stmt" count="4"/>
+        <metrics loc="89" ncloc="51" classes="1" methods="4" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="11" elements="18" coveredelements="13"/>
+      </file>
+    </package>
+    <package name="Pmc\Acl\Exception">
+      <file name="/Users/paul/Code/Projects/PMC_Networks/PMC_Acl/src/Exception/BadRoleInheritanceException.php">
+        <class name="BadRoleInheritanceException" namespace="Pmc\Acl\Exception">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="12" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/paul/Code/Projects/PMC_Networks/PMC_Acl/src/Exception/BadRoleNameException.php">
+        <class name="BadRoleNameException" namespace="Pmc\Acl\Exception">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="12" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/paul/Code/Projects/PMC_Networks/PMC_Acl/src/Exception/ResourceAlreadyDefinedException.php">
+        <class name="ResourceAlreadyDefinedException" namespace="Pmc\Acl\Exception">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="10" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/paul/Code/Projects/PMC_Networks/PMC_Acl/src/Exception/RoleExistsException.php">
+        <class name="RoleExistsException" namespace="Pmc\Acl\Exception">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="13" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/paul/Code/Projects/PMC_Networks/PMC_Acl/src/Exception/RoleNotFoundException.php">
+        <class name="RoleNotFoundException" namespace="Pmc\Acl\Exception">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="13" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Pmc\Acl\Roles">
+      <file name="/Users/paul/Code/Projects/PMC_Networks/PMC_Acl/src/Roles/Role.php">
+        <class name="Role" namespace="Pmc\Acl\Roles">
+          <metrics complexity="4" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
+        </class>
+        <line num="17" type="method" name="__construct" visibility="public" complexity="3" crap="3" count="25"/>
+        <line num="19" type="stmt" count="25"/>
+        <line num="20" type="stmt" count="25"/>
+        <line num="21" type="stmt" count="25"/>
+        <line num="23" type="stmt" count="25"/>
+        <line num="24" type="stmt" count="3"/>
+        <line num="27" type="stmt" count="22"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="21"/>
+        <line num="32" type="stmt" count="21"/>
+        <line num="34" type="method" name="__toString" visibility="public" complexity="1" crap="1" count="20"/>
+        <line num="36" type="stmt" count="20"/>
+        <metrics loc="39" ncloc="34" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
+      </file>
+      <file name="/Users/paul/Code/Projects/PMC_Networks/PMC_Acl/src/Roles/RoleList.php">
+        <class name="RoleList" namespace="Pmc\Acl\Roles">
+          <metrics complexity="10" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="19" elements="28" coveredelements="28"/>
+        </class>
+        <line num="29" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="17"/>
+        <line num="31" type="stmt" count="17"/>
+        <line num="32" type="stmt" count="17"/>
+        <line num="33" type="stmt" count="17"/>
+        <line num="35" type="stmt" count="17"/>
+        <line num="36" type="stmt" count="17"/>
+        <line num="37" type="stmt" count="15"/>
+        <line num="38" type="stmt" count="15"/>
+        <line num="40" type="stmt" count="17"/>
+        <line num="42" type="method" name="toArray" visibility="public" complexity="1" crap="1" count="10"/>
+        <line num="44" type="stmt" count="10"/>
+        <line num="45" type="method" name="anonymous function" complexity="1" crap="1" count="10"/>
+        <line num="46" type="stmt" count="10"/>
+        <line num="47" type="stmt" count="10"/>
+        <line num="48" type="stmt" count="10"/>
+        <line num="51" type="method" name="current" visibility="public" complexity="1" crap="1" count="13"/>
+        <line num="53" type="stmt" count="13"/>
+        <line num="56" type="method" name="key" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="61" type="method" name="next" visibility="public" complexity="1" crap="1" count="11"/>
+        <line num="63" type="stmt" count="11"/>
+        <line num="64" type="stmt" count="11"/>
+        <line num="66" type="method" name="rewind" visibility="public" complexity="1" crap="1" count="13"/>
+        <line num="68" type="stmt" count="13"/>
+        <line num="69" type="stmt" count="13"/>
+        <line num="71" type="method" name="valid" visibility="public" complexity="1" crap="1" count="13"/>
+        <line num="73" type="stmt" count="13"/>
+        <line num="76" type="method" name="count" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="78" type="stmt" count="4"/>
+        <metrics loc="81" ncloc="69" classes="1" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="29" coveredelements="29"/>
+      </file>
+      <file name="/Users/paul/Code/Projects/PMC_Networks/PMC_Acl/src/Roles/RoleTree.php">
+        <class name="RoleTree" namespace="Pmc\Acl\Roles">
+          <metrics complexity="23" methods="9" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="42" elements="52" coveredelements="50"/>
+        </class>
+        <line num="27" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="29" type="stmt" count="16"/>
+        <line num="30" type="stmt" count="16"/>
+        <line num="31" type="stmt" count="16"/>
+        <line num="33" type="method" name="roleExists" visibility="private" complexity="3" crap="3" count="15"/>
+        <line num="35" type="stmt" count="15"/>
+        <line num="36" type="stmt" count="13"/>
+        <line num="38" type="stmt" count="15"/>
+        <line num="42" type="method" name="standardRoleExists" visibility="private" complexity="2" crap="2" count="15"/>
+        <line num="44" type="stmt" count="15"/>
+        <line num="45" type="stmt" count="11"/>
+        <line num="47" type="stmt" count="15"/>
+        <line num="51" type="method" name="superRoleExists" visibility="private" complexity="2" crap="2" count="15"/>
+        <line num="53" type="stmt" count="15"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="56" type="stmt" count="15"/>
+        <line num="60" type="method" name="checkInheritList" visibility="private" complexity="4" crap="4" count="12"/>
+        <line num="62" type="stmt" count="12"/>
+        <line num="63" type="stmt" count="12"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="66" type="stmt" count="11"/>
+        <line num="67" type="stmt" count="11"/>
+        <line num="70" type="stmt" count="10"/>
+        <line num="72" type="method" name="addRole" visibility="public" complexity="3" crap="3" count="14"/>
+        <line num="74" type="stmt" count="14"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="14"/>
+        <line num="79" type="stmt" count="12"/>
+        <line num="80" type="stmt" count="10"/>
+        <line num="82" type="stmt" count="12"/>
+        <line num="84" type="stmt" count="12"/>
+        <line num="86" type="method" name="addSuperRole" visibility="public" complexity="2" crap="2" count="9"/>
+        <line num="88" type="stmt" count="9"/>
+        <line num="89" type="stmt" count="1"/>
+        <line num="91" type="stmt" count="9"/>
+        <line num="92" type="stmt" count="9"/>
+        <line num="94" type="method" name="expand" visibility="public" complexity="5" crap="5.01" count="6"/>
+        <line num="96" type="stmt" count="6"/>
+        <line num="97" type="stmt" count="6"/>
+        <line num="98" type="stmt" count="6"/>
+        <line num="99" type="stmt" count="2"/>
+        <line num="100" type="stmt" count="2"/>
+        <line num="103" type="stmt" count="4"/>
+        <line num="104" type="stmt" count="0"/>
+        <line num="107" type="stmt" count="4"/>
+        <line num="108" type="stmt" count="3"/>
+        <line num="110" type="stmt" count="3"/>
+        <line num="113" type="stmt" count="4"/>
+        <line num="116" type="stmt" count="6"/>
+        <line num="119" type="method" name="allRoles" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="121" type="stmt" count="6"/>
+        <line num="122" type="stmt" count="6"/>
+        <metrics loc="125" ncloc="114" classes="1" methods="9" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="42" elements="52" coveredelements="50"/>
+      </file>
+    </package>
+    <metrics files="9" loc="394" ncloc="305" classes="4" methods="24" coveredmethods="21" conditionals="0" coveredconditionals="0" statements="87" coveredstatements="83" elements="111" coveredelements="104"/>
+  </project>
+</coverage>

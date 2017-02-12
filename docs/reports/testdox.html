@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Test Documentation</title>
+        <style>
+            body {
+                text-rendering: optimizeLegibility;
+                font-variant-ligatures: common-ligatures;
+                font-kerning: normal;
+                margin-left: 2em;
+            }
+
+            body > ul > li {
+                font-family: Source Serif Pro, PT Sans, Trebuchet MS, Helvetica, Arial;
+                font-size: 2em;
+            }
+
+            h2 {
+                font-family: Tahoma, Helvetica, Arial;
+                font-size: 3em;
+            }
+
+            ul {
+                list-style: none;
+                margin-bottom: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="Pmc\Acl\AclTest">Pmc\Acl\Acl</h2>
+        <ul>
+            <li style="color: #555753;">✓ Role access is denied by default</li>
+            <li style="color: #555753;">✓ Super role access is denied by default</li>
+            <li style="color: #555753;">✓ Granted role access is allowed directly</li>
+            <li style="color: #555753;">✓ Granted role access is allowed via inheritance</li>
+            <li style="color: #555753;">✓ Non granted role is denied access</li>
+            <li style="color: #555753;">✓ Super roles are allowed access</li>
+        </ul>
+        <h2 id="Pmc\Acl\Tests\Roles\RoleListTest">Pmc\Acl\Tests\Roles\RoleList</h2>
+        <ul>
+            <li style="color: #555753;">✓ Role lists can be empty</li>
+            <li style="color: #555753;">✓ List can be iterated</li>
+            <li style="color: #555753;">✓ Can be converted to an array</li>
+        </ul>
+        <h2 id="Pmc\Acl\Tests\Roles\RoleTest">Pmc\Acl\Tests\Roles\Role</h2>
+        <ul>
+            <li style="color: #555753;">✓ Sanitised role names cannot be empty </li>
+            <li style="color: #555753;">✓ Sanitised role name cannot be longer than 50 chars</li>
+            <li style="color: #555753;">✓ Valid names are sanitised </li>
+        </ul>
+        <h2 id="Pmc\Acl\Tests\Roles\RoleTreeTest">Pmc\Acl\Tests\Roles\RoleTree</h2>
+        <ul>
+            <li style="color: #555753;">✓ New role trees are empty</li>
+            <li style="color: #555753;">✓ Unique roles are added to the tree</li>
+            <li style="color: #555753;">✓ Non existing roles cannot be inherited</li>
+            <li style="color: #555753;">✓ Super roles cannot be inherited</li>
+            <li style="color: #555753;">✓ Existing roles can be inherited</li>
+            <li style="color: #555753;">✓ Role names must be unique</li>
+            <li style="color: #555753;">✓ Super role names must be unique</li>
+            <li style="color: #555753;">✓ Allocated roles are expanded only to inherited list</li>
+            <li style="color: #555753;">✓ Super roles expand to all roles</li>
+            <li style="color: #555753;">✓ All registered roles can be listed</li>
+        </ul>
+    </body>
+</html>
