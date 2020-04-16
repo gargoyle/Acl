@@ -2,18 +2,16 @@
 
 namespace Pmc\Acl\Tests\Roles;
 
-use PHPUnit_Framework_TestCase;
-use Pmc\Acl\Roles\ {
-    Role,
-    RoleList
-};
+use PHPUnit\Framework\TestCase;
+use Pmc\Acl\Roles\Role;
+use Pmc\Acl\Roles\RoleList;
 
 /**
  * Description of RoleTest
  *
  * @author Paul Court <emails@paulcourt.co.uk>
  */
-class RoleListTest extends PHPUnit_Framework_TestCase
+class RoleListTest extends TestCase
 {
     private function generateTestList(): RoleList
     {

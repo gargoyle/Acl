@@ -2,22 +2,20 @@
 
 namespace Pmc\Acl\Tests\Roles;
 
-use PHPUnit_Framework_TestCase;
-use Pmc\Acl\ {
-    Exception\BadRoleInheritanceException,
-    Exception\RoleExistsException,
-    Exception\RoleNotFoundException,
-    Roles\Role,
-    Roles\RoleList,
-    Roles\RoleTree
-};
+use PHPUnit\Framework\TestCase;
+use Pmc\Acl\Exception\BadRoleInheritanceException;
+use Pmc\Acl\Exception\RoleExistsException;
+use Pmc\Acl\Exception\RoleNotFoundException;
+use Pmc\Acl\Roles\Role;
+use Pmc\Acl\Roles\RoleList;
+use Pmc\Acl\Roles\RoleTree;
 
 /**
  * Define the capabilities for RoleTree
  *
  * @author Paul Court <emails@paulcourt.co.uk>
  */
-class RoleTreeTest extends PHPUnit_Framework_TestCase
+class RoleTreeTest extends TestCase
 {
     public function testNewRoleTreesAreEmpty()
     {
@@ -123,10 +121,10 @@ class RoleTreeTest extends PHPUnit_Framework_TestCase
     public function testAllRegisteredRolesCanBeListed()
     {
         $tree = $this->getExampleTree();
-        $this->assertArraySubset(
-                ['Level 0', 'Level 1', 'Level 2','Group A','Group B'],
-                $tree->allRoles()->toArray()
-                );
+        $allRoles = $tree->allRoles()->toArray();
+        foreach (['Level 0', 'Level 1', 'Level 2','Group A','Group B'] as $roleToCheck) {
+            $this->assertContainsEquals($roleToCheck, $allRoles);
+        }
     }
     
     private function getExampleTree()

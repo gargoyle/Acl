@@ -2,18 +2,16 @@
 
 namespace Pmc\Acl\Tests\Roles;
 
-use PHPUnit_Framework_TestCase;
-use Pmc\Acl\ {
-    Exception\BadRoleNameException,
-    Roles\Role
-};
+use PHPUnit\Framework\TestCase;
+use Pmc\Acl\Exception\BadRoleNameException;
+use Pmc\Acl\Roles\Role;
 
 /**
  * Description of RoleTest
  *
  * @author Paul Court <emails@paulcourt.co.uk>
  */
-class RoleTest extends PHPUnit_Framework_TestCase
+class RoleTest extends TestCase
 {
     public function badRoleNameProvider()
     {

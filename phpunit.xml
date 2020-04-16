@@ -7,15 +7,11 @@
          convertNoticesToExceptions="false"
          convertWarningsToExceptions="false"
          forceCoversAnnotation="false"
-         addUncoveredFilesFromWhitelist="true"
-         processUncoveredFilesFromWhitelist="true"
-         mapTestClassNameToCoveredClassName="false"
          processIsolation="false"
          stopOnError="true"
          stopOnFailure="true"
          stopOnIncomplete="false"
          stopOnSkipped="true"
-         testSuiteLoaderClass="PHPUnit_Runner_StandardTestSuiteLoader"
          verbose="true">
     
     <testsuites>
