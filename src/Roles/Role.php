@@ -11,8 +11,7 @@ use Pmc\Acl\Exception\BadRoleNameException;
  */
 class Role
 {
-
-    private $value;
+    private string $value;
 
     public function __construct(string $value)
     {

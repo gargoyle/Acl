@@ -21,8 +21,8 @@ use Pmc\Acl\Exception\ {
 class RoleTree
 {
 
-    private $roles;
-    private $superRoles;
+    private array $roles;
+    private array $superRoles;
 
     public function __construct()
     {

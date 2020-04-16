@@ -14,17 +14,8 @@ use SplFixedArray;
  */
 class RoleList implements Iterator, Countable
 {
-
-    /**
-     * @var Role[]
-     */
-    private $roles;
-
-    /**
-     *
-     * @var int
-     */
-    private $pointer;
+    private SplFixedArray $roles;
+    private int $pointer;
     
     public function __construct(array $roles)
     {

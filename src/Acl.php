@@ -29,18 +29,13 @@ use Pmc\Acl\Roles\ {
  */
 class Acl
 {
-    /**
-     * @var RoleTree
-     */
-    private $roleTree;
+    private RoleTree $roleTree;
 
     /**
      * Each entry in the array will consist of the array key = resource name and 
      * the array value is the role that is allowed access.
-     * 
-     * @var array
      */
-    private $accessList;
+    private array $accessList;
     
     
     public function __construct(RoleTree $roleTree)
@@ -66,15 +61,8 @@ class Acl
         }
         $this->accessList[(string)$resource] = (string)$allowedRole;
     }
-    
-    /**
-     * Check if access is granted.
-     * 
-     * @param string $resource
-     * @param array $rolesToCheck
-     * @return boolean
-     */
-    public function isAllowed($resource, RoleList $rolesToCheck)
+
+    public function isAllowed(string $resource, RoleList $rolesToCheck): bool
     {
         if (!isset($this->accessList[(string)$resource])) {
             return false;
