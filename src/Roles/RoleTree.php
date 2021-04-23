@@ -18,7 +18,7 @@ use Pmc\Acl\Exception\ {
  *
  * @author Paul Court <emails@paulcourt.co.uk>
  */
-class RoleTree
+class RoleTree implements \IteratorAggregate
 {
 
     private array $roles;
@@ -120,6 +120,13 @@ class RoleTree
     {
         $allRoles = array_merge(array_keys($this->roles), $this->superRoles);
         return new RoleList($allRoles);
+    }
+
+    public function getIterator(): \Traversable
+    {
+        foreach ($this->roles as $role => $inherits) {
+            yield $role => $inherits;
+        }
     }
 
 }
