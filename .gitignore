@@ -1,3 +1,4 @@
 vendor
 docs/reports
 nbproject
+.phpunit.result.cache
